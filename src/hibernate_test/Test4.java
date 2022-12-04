@@ -19,9 +19,9 @@ public class Test4 {
 //            Employee emp = session.get(Employee.class, 1);
 //            emp.setSalary(1500);
 
-            session.createQuery("update Employee set salary=100" +
-                    " where name = 'Test2'").executeUpdate();
-            session.getTransaction().commit();
+//            session.createQuery("update Employee set salary=100" +
+//                    " where name = 'Test2'").executeUpdate();
+//            session.getTransaction().commit();
 
             System.out.println("Done");
         }
